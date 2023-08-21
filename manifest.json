@@ -1,0 +1,14 @@
+{
+    "name": "Leap Wallet",
+    "description": "wallet",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Leap Wallet"
+    },
+    "background": {
+        "service_worker": "src/background.ts"
+    },
+    "options_page": "src/option/options.html"
+}
